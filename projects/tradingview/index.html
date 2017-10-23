@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  
+<!-- Mirrored from cuberto.com/projects/tradingview/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Oct 2017 04:22:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>TradingView — Cuberto</title>
+    <meta name="description" content="Cuberto: TradingView — Building a research and blogging web platform for financial markets.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="msapplication-TileColor" content="#004dd2">
+    <meta name="msapplication-TileImage" content="../../mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="Cuberto">
+    <meta name="google-site-verification" content="jBN0INOfYEWN3OTb1KLilxiqciyjaudZUEQCjXa9Ovg">
+    <link rel="stylesheet" href="../../assets/css/main0abc.css?v=2.8.22">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="../../favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="../../favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="../../favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../../manifest.json">
+  </head>
+  <body>
+    <div class="cb-loader">
+      <div class="cb-loader-img"><img src="../../assets/img/loader/C-tru-2.gif" alt></div>
+    </div>
+    <div class="cb-scroller"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 40" style="enable-background:new 0 0 25 40;" xml:space="preserve"><path d="M11,39.5C5.2,39.5,0.5,34.8,0.5,29V11C0.5,5.2,5.2,0.5,11,0.5h3c5.8,0,10.5,4.7,10.5,10.5v18c0,5.8-4.7,10.5-10.5,10.5H11z"/><circle cx="12.5" cy="11.5" r="1.5"/></svg>
+    </div>
+    <div class="cb-content">
+          <nav class="cb-navbar">
+            <div class="cb-container">
+              <div class="cb-navbar-inner">
+                <div class="cb-navbar-left"><a href="../../index.html" class="cb-navbar-back"><i class="cb-icon -long-arrow-left"></i></a><a href="../../index.html" class="cb-navbar-logo"></a></div>
+                <div class="cb-navbar-right">
+                  <div class="cb-navbar-nav"><a href="../../services/index.html" id="navbar-services" class="cb-navbar-nav-item"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -cog"></i></span><span class="cb-navbar-nav-item-text">Services</span></a><a href="../index.html" id="navbar-projects" class="cb-navbar-nav-item"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -bars"></i></span><span class="cb-navbar-nav-item-text">Projects</span></a><a href="../../contacts/index.html" onclick="yaCounter.reachGoal('contacts')" id="navbar-contacts" class="cb-navbar-nav-item"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -contacts"></i></span><span class="cb-navbar-nav-item-text">Contacts</span></a></div>
+                </div>
+              </div>
+            </div>
+          </nav>
+      <div id="wrap-tradingview" class="cb-wrap">
+        <header class="cb-project cb-tradingview-project -case">
+          <div class="cb-project-wrap">
+            <div class="cb-project-bg -photo">
+              <div class="cb-project-bg-splitter"></div>
+              <div class="cb-project-bg-inner">
+                <div class="cb-project-bg-video">
+                  <video preload="auto" loop muted autoplay>
+                    <source src="../../assets/video/tradingview.mp4" type="video/mp4">
+                    <source src="../../assets/video/tradingview.webm" type="video/webm">
+                    <source src="../../assets/video/tradingview.ogv" type="video/ogg">
+                  </video>
+                </div>
+                <div class="cb-project-bg-photo"></div>
+              </div>
+            </div>
+            <div class="cb-project-body">
+              <div class="cb-container">
+                <div class="cb-project-header">
+                  <h1>TradingView</h1>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div data-letter="t" data-letter-state="immediateShow,immediateLoaded" class="cb-project-letter"></div>
+          </div>
+        </header>
+        <article class="cb-case cb-tradingview-case">
+          <section data-navbar-class="-inverse" class="cb-brief cb-tradingview-brief">
+            <div class="cb-brief-wrap">
+              <div class="cb-container">
+                <div class="cb-container-inner">
+                  <div class="row wow fadeInUp">
+                    <div class="cb-brief-col col-md-5">
+                      <div class="cb-brief-header">The challenge</div>
+                      <div class="cb-brief-text">
+                        <p>Over the last 5 years, Cuberto has formed an intimate relationship with TradingView in a successful attempt to help their team create (and update) the design of their online interfaces. The challenge with this project lay in keeping TradingView at the forefront of upcoming design trends—because TradingView can’t afford to stand still as a business, they can’t afford to slow down on the development of new applications and features for traders either.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="cb-brief-col col-md-6">
+                      <div class="cb-brief-header">The project</div>
+                      <div class="cb-brief-text">
+                        <p>TradingView is the best, most powerful and easy to use charting service. Using a unique, trendsetting interface, TradingView gives traders the ability to do their job free of the clutter found on more commonly used, outdated trading platforms. Although TradingView was a complicated, it enabled us to improve its talent at trading interface design—a necessity in order to win new clients in this space.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-inverse" class="cb-preview">
+            <div class="cb-preview-wrap wow fadeInUp">
+              <div class="cb-container">
+                <div class="cb-container-inner">
+                  <div class="cb-preview-embedded">
+                    <iframe src="https://player.vimeo.com/video/181050312?loop=1&amp;badge=0&amp;title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-inverse" class="cb-brand cb-tradingview-brand">
+            <div class="cb-brand-wrap">
+              <div class="cb-container">
+                <div class="cb-container-inner">
+                  <div class="container-fluid wow fadeInUp">
+                    <div class="row">
+                      <div class="col-xs-3 col-sm-4">
+                        <div class="cb-case-container">
+                          <div class="cb-case-header">
+                            <div class="cb-case-header-inner">
+                              <h3>drawing tools</h3>
+                            </div>
+                          </div>
+                          <div class="cb-case-stepnum">01</div>
+                        </div>
+                      </div>
+                      <div class="col-xs-9 col-sm-8">
+                        <div class="row">
+                          <div class="cb-brand-logo">
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/1.png" srcset="/assets/img/tradingview/icons/1@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/2.png" srcset="/assets/img/tradingview/icons/2@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/3.png" srcset="/assets/img/tradingview/icons/3@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/4.png" srcset="/assets/img/tradingview/icons/4@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/5.png" srcset="/assets/img/tradingview/icons/5@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/6.png" srcset="/assets/img/tradingview/icons/6@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/7.png" srcset="/assets/img/tradingview/icons/7@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/8.png" srcset="/assets/img/tradingview/icons/8@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/9.png" srcset="/assets/img/tradingview/icons/9@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/10.png" srcset="/assets/img/tradingview/icons/10@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/11.png" srcset="/assets/img/tradingview/icons/11@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/12.png" srcset="/assets/img/tradingview/icons/12@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/13.png" srcset="/assets/img/tradingview/icons/13@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/14.png" srcset="/assets/img/tradingview/icons/14@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/15.png" srcset="/assets/img/tradingview/icons/15@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/16.png" srcset="/assets/img/tradingview/icons/16@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/17.png" srcset="/assets/img/tradingview/icons/17@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/18.png" srcset="/assets/img/tradingview/icons/18@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/19.png" srcset="/assets/img/tradingview/icons/19@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/20.png" srcset="/assets/img/tradingview/icons/20@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/21.png" srcset="/assets/img/tradingview/icons/21@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/22.png" srcset="/assets/img/tradingview/icons/22@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/23.png" srcset="/assets/img/tradingview/icons/23@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/24.png" srcset="/assets/img/tradingview/icons/24@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-5ths">
+                              <div class="cb-brand-logo-item">
+                                <div class="cb-brand-logo-item-inner"><img src="../../assets/img/tradingview/icons/25.png" srcset="/assets/img/tradingview/icons/25@2x.png 2x" alt></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-inverse" class="cb-website cb-tradingview-website">
+            <div class="cb-website-wrap">
+              <div class="cb-website-section wow fadeInUp">
+                <div class="cb-website-section-fill -type1"></div>
+                <div class="cb-website-section-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-xs-9 col-sm-8 col-lg-9">
+                        <div class="cb-container">
+                          <div class="cb-container-inner">
+                            <div class="cb-case-container">
+                              <div class="cb-website-section-screen wow fadeInUp"><img src="../../assets/img/tradingview/site/1.png" srcset="/assets/img/tradingview/site/1@2x.png 2x" alt="iBox Website"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-3 col-sm-4 col-lg-3">
+                        <div class="cb-website-section-header">
+                          <div class="cb-case-header">
+                            <div class="cb-case-header-inner">
+                              <h3>website</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cb-website-section wow fadeInUp">
+                <div class="cb-website-section-fill -type2"></div>
+                <div class="cb-website-section-body">
+                  <div class="cb-website-section-shoot -right -offset1 wow fadeInUp"><img src="../../assets/img/tradingview/site/2.png" srcset="/assets/img/tradingview/site/2@2x.png 2x" alt></div>
+                  <div class="cb-website-section-shoot wow fadeInUp"><img src="../../assets/img/tradingview/site/3.png" srcset="/assets/img/tradingview/site/3@2x.png 2x" alt></div>
+                </div>
+              </div>
+              <div class="cb-website-section wow fadeInUp">
+                <div class="cb-website-section-fill -type3"></div>
+                <div class="cb-website-section-body">
+                  <div class="row">
+                    <div class="col-xs-3 col-lg-2">
+                      <div class="cb-container">
+                        <div class="cb-container-inner">
+                          <div class="cb-case-container">
+                            <div class="cb-case-header">
+                              <div class="cb-case-header-inner">
+                                <h3>online charts</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-9 col-lg-10">
+                      <div class="cb-website-section-shoot -right -offset1 wow fadeInUp"><img src="../../assets/img/tradingview/site/4.png" srcset="/assets/img/tradingview/site/4@2x.png 2x" alt></div>
+                    </div>
+                  </div>
+                  <div class="cb-website-section-shoot wow fadeInUp"><img src="../../assets/img/tradingview/site/5.png" srcset="/assets/img/tradingview/site/5@2x.png 2x" alt></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-inverse" class="cb-screens cb-tradingview-screens">
+            <div class="cb-screens-wrap">
+              <div class="cb-screens-back wow fadeInUp">
+                <div class="container-fluid">
+                  <div class="row col-xs-8 col-sm-8">
+                    <div class="cb-screens-beheader">
+                      <div class="cb-container">
+                        <div class="cb-container-inner">
+                          <div class="cb-case-container">
+                            <div class="cb-case-stepnum -lineafter">02</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-bottom-top="transform:translateX(0%)" data-top-bottom="transform:translateX(30%)" class="cb-case-beheader">TradingView</div>
+                    </div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4">
+                    <div class="cb-screens-header">
+                      <div class="cb-case-container">
+                        <div class="cb-case-header">
+                          <div class="cb-case-header-inner">
+                            <h3>main screens</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cb-screens-front wow fadeInUp">
+                <div class="cb-screens-carousel">
+                  <div class="cb-carousel">
+                    <div class="cb-carousel-control">
+                      <div data-bottom-top="width:0px;" data-300-bottom="width:70px;" class="cb-carousel-control-item -prev"><i class="cb-icon -chevron-left"></i></div>
+                      <div data-bottom-top="width:0px;" data-300-bottom="width:70px;" class="cb-carousel-control-item -next"><i class="cb-icon -chevron-right"></i></div>
+                    </div>
+                    <div class="cb-screens-phone">
+                      <div class="cb-iphone -six -gold">
+                        <div class="cb-iphone-screen -black">
+                          <div class="cb-carousel-inner">
+                            <div class="cb-carousel-item">
+                              <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/screens/1.png" srcset="/assets/img/tradingview/screens/1@2x.png 2x" alt></div>
+                            </div>
+                            <div class="cb-carousel-item">
+                              <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/screens/2.png" srcset="/assets/img/tradingview/screens/2@2x.png 2x" alt></div>
+                            </div>
+                            <div class="cb-carousel-item">
+                              <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/screens/3.png" srcset="/assets/img/tradingview/screens/3@2x.png 2x" alt></div>
+                            </div>
+                            <div class="cb-carousel-item">
+                              <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/screens/4.png" srcset="/assets/img/tradingview/screens/4@2x.png 2x" alt></div>
+                            </div>
+                            <div class="cb-carousel-item">
+                              <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/screens/5.png" srcset="/assets/img/tradingview/screens/5@2x.png 2x" alt></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cb-carousel-paginator"><a class="cb-carousel-paginator-item -active">1</a><a class="cb-carousel-paginator-item">2</a><a class="cb-carousel-paginator-item">3</a><a class="cb-carousel-paginator-item">4</a><a class="cb-carousel-paginator-item">5</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-default" class="cb-preview">
+            <div class="cb-preview-wrap wow fadeInUp">
+              <div style="background-image:url(../../assets/img/tradingview/preview/middle.jpg)" class="cb-preview-bg -dynamic">
+                <div class="cb-container">
+                  <div class="cb-container-inner">
+                    <div class="cb-preview-caption">
+                      <div class="cb-preview-header">
+                        <p>Technical</p>
+                        <p>analysis</p>
+                      </div>
+                      <div class="cb-preview-text">
+                        <p>Easy and intuitive for beginners, and powerful enough for advanced chartists – TradingView has all charting tools you need to share and view trading ideas.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-inverse" class="cb-functional cb-tradingview-functional">
+            <div class="cb-functional-wrap">
+              <div class="cb-functional-bg"></div>
+              <div class="cb-functional-body">
+                <div class="cb-container wow fadeInUp">
+                  <div class="cb-container-inner">
+                    <div class="cb-case-container">
+                      <div class="container-fluid">
+                        <div class="cb-functional-header">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <div class="cb-case-header">
+                                <div class="cb-case-header-inner">
+                                  <h3>functional</h3>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-2">
+                              <div class="cb-case-stepnum">03</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid wow fadeInUp">
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-sm-6 col-md-4">
+                      <div class="cb-functional-box hidden-xs">
+                        <div id="tradingview-carousel-functional-box" data-carousel-sync="#tradingview-carousel-functional-phone" class="cb-carousel">
+                          <div class="cb-carousel-inner">
+                            <div class="cb-carousel-item">
+                              <div class="cb-functional-box-header">Profile</div>
+                              <div class="cb-functional-box-text">Make charts work for you with TradingView.</div>
+                            </div>
+                            <div class="cb-carousel-item">
+                              <div class="cb-functional-box-header">Charts</div>
+                              <div class="cb-functional-box-text">TradingView combines stock and forex charts with a community of investors.</div>
+                            </div>
+                            <div class="cb-carousel-item">
+                              <div class="cb-functional-box-header">Dynamics</div>
+                              <div class="cb-functional-box-text">Best aggregate features of any market charts</div>
+                            </div>
+                          </div>
+                          <div class="cb-functional-box-bottom">
+                            <div class="cb-carousel-nav"><a class="cb-carousel-nav-prev -hidden"><i class="cb-icon -chevron-left"></i></a><a class="cb-carousel-nav-item -active"></a><a class="cb-carousel-nav-item"></a><a class="cb-carousel-nav-item"></a><a class="cb-carousel-nav-next"><i class="cb-icon -chevron-right"></i></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-5">
+                      <div class="cb-functional-phone">
+                        <div id="tradingview-carousel-functional-phone" data-carousel-sync="#tradingview-carousel-functional-box" class="cb-carousel">
+                          <div class="cb-iphone -six -silver">
+                            <div class="cb-iphone-addon -chart"></div>
+                            <div class="cb-iphone-screen -black">
+                              <div class="cb-carousel-inner">
+                                <div class="cb-carousel-item">
+                                  <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/functional/1.png" srcset="/assets/img/tradingview/functional/1@2x.png 2x" alt></div>
+                                </div>
+                                <div class="cb-carousel-item">
+                                  <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/functional/2.png" srcset="/assets/img/tradingview/functional/2@2x.png 2x" alt></div>
+                                </div>
+                                <div class="cb-carousel-item">
+                                  <div class="cb-iphone-screen-image"><img src="../../assets/img/tradingview/functional/3.png" srcset="/assets/img/tradingview/functional/3@2x.png 2x" alt></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cb-carousel-paginator visible-xs"><a class="cb-carousel-paginator-item -active">1</a><a class="cb-carousel-paginator-item">2</a><a class="cb-carousel-paginator-item">3</a></div>
+                          <div class="cb-carousel-caption visible-xs">
+                            <div class="cb-carousel-caption-item">Profile</div>
+                            <div class="cb-carousel-caption-item">Charts</div>
+                            <div class="cb-carousel-caption-item">Dynamics</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-inverse" class="cb-response">
+            <div class="cb-response-wrap wow fadeInUp">
+              <div class="cb-container">
+                <div class="cb-container-inner">
+                  <div class="cb-response-author">
+                    <div class="cb-response-author-col">
+                      <div style="background-image:url(../../assets/img/tradingview/response/author.png)" class="cb-response-author-photo"></div>
+                    </div>
+                    <div class="cb-response-author-col">
+                      <div class="cb-response-author-name"><b>Stanislav Bokov</b><span>Co-founder</span></div>
+                    </div>
+                  </div>
+                  <div class="cb-response-message">Cuberto didn't ask stupid questions, they didn't have trouble in accepting our feedback and coming up with creative ideas, and they are proactive in suggesting useful approaches.</div>
+                  <div class="cb-response-more"><a href="https://clutch.co/agencies/review/rebranding-engagement-big-data-tool" target="_blank" class="cb-response-more-link"><span>see full interview on</span><i class="cb-icon -clutch"></i></a></div>
+                  <div class="cb-response-request"><a href="../../contacts/index.html"><span>send</span> a request</a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section data-navbar-class="-default" class="cb-preview -auto">
+            <div class="cb-preview-wrap wow fadeInUp">
+              <div style="background-image:url(../../assets/img/tradingview/preview/bottom.jpg)" class="cb-preview-bg"></div>
+            </div>
+          </section>
+          <section data-navbar-class="-inverse" class="cb-outro cb-tradingview-outro">
+            <div class="cb-outro-wrap">
+              <div class="cb-outro-logo wow fadeInUp"><img src="../../assets/img/tradingview/logo/label.png" srcset="/assets/img/tradingview/logo/label@2x.png 2x" alt="iBox"></div>
+              <div class="cb-outro-text wow fadeInUp">
+                <p>The best blogging platform for financial markets.</p>
+                <p>Free charts &amp; data.</p>
+              </div>
+              <div class="cb-outro-store wow fadeInUp"><a href="https://new.tradingview.com/" target="_blank" class="cb-outro-store-item"><span class="cb-outro-store-item-icon"><i class="cb-icon -link"></i></span><span class="cb-outro-store-item-text"><span data-text="tradingview.com">tradingview.com</span></span></a></div>
+            </div>
+          </section>
+          <header data-project-name="ewa" class="cb-project cb-ewa-project -sm -fake">
+            <div class="cb-project-wrap">
+              <div data-letter="e" class="cb-project-letter"></div>
+              <div class="cb-project-fill"></div>
+              <div class="cb-project-bg">
+                <div class="cb-project-bg-inner">
+                  <div class="cb-project-bg-video">
+                    <video preload="auto" loop muted autoplay>
+                      <source src="../../assets/video/ewa.mp4" type="video/mp4">
+                      <source src="../../assets/video/ewa.webm" type="video/webm">
+                      <source src="../../assets/video/ewa.ogv" type="video/ogg">
+                    </video>
+                  </div>
+                  <div class="cb-project-bg-photo"></div>
+                </div>
+              </div>
+              <div class="cb-project-body">
+                <div class="cb-project-body-inner">
+                  <div class="cb-container">
+                    <div class="cb-project-title">Next project</div>
+                    <div class="cb-project-header">
+                      <h3>EWA</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+      </div>
+    </div>
+    <div class="cb-request">
+      <div class="cb-request-backdrop"></div>
+      <div class="cb-request-box">
+        <div class="cb-request-inner">
+          <div class="cb-request-container">
+            <div class="cb-request-message -success">
+              <div class="cb-request-message-body">
+                <p>Thank you!</p>
+                <p>We will contact you soon.</p>
+              </div>
+              <div class="cb-request-message-controls">
+                <button type="button" class="cb-btn -flat -inverse">ok</button>
+              </div>
+            </div>
+            <div class="cb-request-message -error">
+              <div class="cb-request-message-body">
+                <p>An error ocurred...</p>
+                <p>Check form data and</p>
+                <p>try again or email us.</p>
+              </div>
+              <div class="cb-request-message-controls">
+                <button type="button" class="cb-btn -flat -inverse">Back</button>
+              </div>
+            </div>
+            <div class="cb-request-form">
+              <form action="http://cuberto.com/report.php" method="post" onsubmit="yaCounter.reachGoal('order');">
+                <div class="cb-request-title">
+                  <p>Send</p>
+                  <p>a request</p>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="cb-form-group">
+                      <div class="cb-form-select">
+                        <select name="service" title="Interested in ...">
+                          <option value="Mobile app">Interested in mobile app</option>
+                          <option value="Site">Interested in website</option>
+                          <option value="Only UI Design">Only UI Design</option>
+                          <option value="Only Development">Only Development</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="cb-form-group">
+                      <input type="text" name="name" maxlength="50" placeholder="Your name" required class="cb-form-input">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="cb-form-group">
+                      <input type="email" name="email" maxlength="100" placeholder="Email" required class="cb-form-input">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="cb-form-group">
+                      <textarea name="mess" placeholder="Project description (optional)" class="cb-form-textarea"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="cb-form-submit">
+                      <div data-sitekey="6LfkizEUAAAAALHqLllz5uLtByq0-hjJZEHXouGE" data-size="invisible" data-callback="requestSubmit" id="request-recaptcha" class="g-recaptcha"></div>
+                      <button type="submit" class="cb-btn -flat -inverse">Send request</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../assets/js/vendor.js"></script>
+    <script src="../../assets/js/bundle0abc.js?v=2.8.22"></script>
+    <script src="../../../www.google.com/recaptcha/api.js"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '../../../www.google-analytics.com/analytics.js', 'ga');
+      
+      ga('create', 'UA-9315684-2', 'auto');
+      ga('send', 'pageview');
+      
+    </script>
+    <script>
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter22519915 = new Ya.Metrika({
+                      id:22519915,
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor:true
+                  });
+                  w.yaCounter = w.yaCounter22519915;
+              } catch(e) { }
+          });
+      
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "../../../mc.yandex.ru/metrika/watch.js";
+      
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/22519915" style="position:absolute; left:-9999px;" alt=""></div>
+    </noscript>
+    <script type="text/javascript">_linkedin_data_partner_id = "69746";</script>
+    <script type="text/javascript">
+      (function () {
+          var s = document.getElementsByTagName("script")[0];
+          var b = document.createElement("script");
+          b.type = "text/javascript";
+          b.async = true;
+          b.src = "../../../snap.licdn.com/li.lms-analytics/insight.min.js";
+          s.parentNode.insertBefore(b, s);
+      })();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=69746&amp;fmt=gif"></noscript>
+  </body>
+
+<!-- Mirrored from cuberto.com/projects/tradingview/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Oct 2017 04:23:57 GMT -->
+</html>
