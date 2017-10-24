@@ -26,6 +26,15 @@
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="manifest.json">
+
+  <script src="assets/js/modernizr-custom.js"></script>
+  <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+
+
+
   </head>
   <body>
     <div class="cb-loader">
@@ -37,9 +46,9 @@
           <nav class="cb-navbar">
             <div class="cb-container">
               <div class="cb-navbar-inner">
-                <div class="cb-navbar-left"><a href="index.html" class="cb-navbar-back"><i class="cb-icon -long-arrow-left"></i></a><a href="index.html" class="cb-navbar-logo"></a></div>
+                <div class="cb-navbar-left"><a href="index.html" class="cb-navbar-back" onclick="reloadingurl()"><i class="cb-icon -long-arrow-left"></i></a><a href="index.html" class="cb-navbar-logo" onclick="reloadingurl()"></a></div>
                 <div class="cb-navbar-right">
-                  <div class="cb-navbar-nav"><a href="services/index.html" id="navbar-services" class="cb-navbar-nav-item"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -cog"></i></span><span class="cb-navbar-nav-item-text">Services</span></a><a href="projects/index.html" id="navbar-projects" class="cb-navbar-nav-item"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -bars"></i></span><span class="cb-navbar-nav-item-text">Projects</span></a><a href="contacts/index.html" onclick="yaCounter.reachGoal('contacts')" id="navbar-contacts" class="cb-navbar-nav-item"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -contacts"></i></span><span class="cb-navbar-nav-item-text">Contacts</span></a></div>
+                  <div class="cb-navbar-nav"><a href="services/index.html" id="navbar-services" class="cb-navbar-nav-item" onclick="reloadingurl()"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -cog"></i></span><span class="cb-navbar-nav-item-text">Services</span></a><a href="/projects/index.html" id="navbar-projects" class="cb-navbar-nav-item" onclick="reloadingurl()"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -bars"></i></span><span class="cb-navbar-nav-item-text" >Projects</span></a><a href="/contacts/index.html" id="navbar-contacts" class="cb-navbar-nav-item" onclick="reloadingurl()"><span class="cb-navbar-nav-item-icon"><i class="cb-icon -contacts"></i></span><span class="cb-navbar-nav-item-text">Contacts</span></a></div>
                 </div>
               </div>
             </div>
@@ -88,7 +97,7 @@
                     </button>
                   </div>
                   <div class="cb-intro-awards">
-                    <div class="cb-intro-awards-inner"><a href="http://www.awwwards.com/sites/Major Keys-3" target="_blank" class="cb-intro-awards-item -awwwards"></a><a href="http://thefwa.com/cases/Major Keys" target="_blank" class="cb-intro-awards-item -fwa"></a></div>
+                    <!--<div class="cb-intro-awards-inner"><a href="http://www.awwwards.com/sites/Major Keys-3" target="_blank" class="cb-intro-awards-item -awwwards"></a><a href="http://thefwa.com/cases/Major Keys" target="_blank" class="cb-intro-awards-item -fwa"></a></div>-->
                   </div>
                   <div data-letter="c" class="cb-project-letter -back"></div>
                 </div>
@@ -122,7 +131,7 @@
                           <p>Created a clever, high-end</p>
                           <p>app which enables users to</p>
                           <p>learn English words.</p>
-                          <p class="-more"><a href="projects/ewa/index.html" class="cb-btn -flat">View Case</a></p>
+                          <p class="-more"><a href="/projects/ewa/index.html" class="cb-btn -flat" onclick="reloadingurl()">View Case</a></p>
                         </div>
                       </div>
                     </div>
@@ -160,7 +169,7 @@
                           <p>App designed for calls</p>
                           <p>with HD sound quality</p>
                           <p>and low fees.</p>
-                          <p class="-more"><a href="projects/yolla/index.html" class="cb-btn -flat">View Case</a></p>
+                          <p class="-more"><a href="/projects/yolla/index.html" class="cb-btn -flat" onclick="reloadingurl()">View Case</a></p>
                         </div>
                       </div>
                     </div>
@@ -198,7 +207,7 @@
                           <p>Built a professional</p>
                           <p>instant messenger for</p>
                           <p>business communication.</p>
-                          <p class="-more"><a href="projects/hyphen/index.html" class="cb-btn -flat">View Case</a></p>
+                          <p class="-more"><a href="/projects/hyphen/index.html" class="cb-btn -flat" onclick="reloadingurl()">View Case</a></p>
                         </div>
                       </div>
                     </div>
@@ -236,7 +245,7 @@
                           <p>Built award-winning</p>
                           <p>website for a mobile</p>
                           <p>acquisition company.</p>
-                          <p class="-more"><a href="projects/neemble/index.html" class="cb-btn -flat">View Case</a></p>
+                          <p class="-more"><a href="/projects/neemble/index.html" class="cb-btn -flat" onclick="reloadingurl()">View Case</a></p>
                         </div>
                       </div>
                     </div>
@@ -274,7 +283,7 @@
                           <p>Building a research and</p>
                           <p>blogging web platform</p>
                           <p>for financial markets.</p>
-                          <p class="-more"><a href="projects/tradingview/index.html" class="cb-btn -flat">View Case</a></p>
+                          <p class="-more"><a href="/projects/tradingview/index.html" class="cb-btn -flat" onclick="reloadingurl()">View Case</a></p>
                         </div>
                       </div>
                     </div>
@@ -368,64 +377,13 @@
     <script src="assets/js/vendor.js"></script>
     <script src="assets/js/bundle0abc.js?v=2.8.22"></script>
     <script src="../www.google.com/recaptcha/api.js"></script>
+<!--page reload-->
     <script>
-      (function (i, s, o, g, r, a, m) {
-          i['GoogleAnalyticsObject'] = r;
-          i[r] = i[r] || function () {
-              (i[r].q = i[r].q || []).push(arguments)
-          }, i[r].l = 1 * new Date();
-          a = s.createElement(o),
-              m = s.getElementsByTagName(o)[0];
-          a.async = 1;
-          a.src = g;
-          m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
-      
-      ga('create', 'UA-9315684-2', 'auto');
-      ga('send', 'pageview');
-      
+        function reloadingurl() {
+            location.reload();
+        }
     </script>
-    <!--<script>-->
-      <!--(function (d, w, c) {-->
-          <!--(w[c] = w[c] || []).push(function() {-->
-              <!--try {-->
-                  <!--w.yaCounter22519915 = new Ya.Metrika({-->
-                      <!--id:22519915,-->
-                      <!--clickmap:true,-->
-                      <!--trackLinks:true,-->
-                      <!--accurateTrackBounce:true,-->
-                      <!--webvisor:true-->
-                  <!--});-->
-                  <!--w.yaCounter = w.yaCounter22519915;-->
-              <!--} catch(e) { }-->
-          <!--});-->
-      <!---->
-          <!--var n = d.getElementsByTagName("script")[0],-->
-              <!--s = d.createElement("script"),-->
-              <!--f = function () { n.parentNode.insertBefore(s, n); };-->
-          <!--s.type = "text/javascript";-->
-          <!--s.async = true;-->
-          <!--s.src = "../mc.yandex.ru/metrika/watch.js";-->
-      <!---->
-          <!--if (w.opera == "[object Opera]") {-->
-              <!--d.addEventListener("DOMContentLoaded", f, false);-->
-          <!--} else { f(); }-->
-      <!--})(document, window, "yandex_metrika_callbacks");-->
-    <!--</script>-->
-    <!--<noscript>-->
-      <!--<div><img src="https://mc.yandex.ru/watch/22519915" style="position:absolute; left:-9999px;" alt=""></div>-->
-    <!--</noscript>-->
-    <!--<script type="text/javascript">_linkedin_data_partner_id = "69746";</script>-->
-    <!--<script type="text/javascript">-->
-      <!--(function () {-->
-          <!--var s = document.getElementsByTagName("script")[0];-->
-          <!--var b = document.createElement("script");-->
-          <!--b.type = "text/javascript";-->
-          <!--b.async = true;-->
-          <!--b.src = "../snap.licdn.com/li.lms-analytics/insight.min.js";-->
-          <!--s.parentNode.insertBefore(b, s);-->
-      <!--})();-->
-    <!--</script>-->
-    <!--<noscript><img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=69746&amp;fmt=gif"></noscript>-->
+    <!--page reload-->
+
   </body>
 </html>
